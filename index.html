@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Js Course</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header class="d-none">
+        <h2 id="increase" class="p-2">0</h2>
+        <button id="increase" onclick="increase()">Increase</button>
+        <button id="save" onclick="save()">Save</button>
+        <button id="reset" onclick="reset()">Reset</button>
+        <p id="p-el">Previous Count</p>
+    </header>
+    <header class="text-center d-none">
+        <span id="num1-el" class=" btn btn-danger p-3 m-1 mt-2 text-white"></span>
+        <span id="num2-el" class="btn btn-danger p-3 m-1 mt-2 text-white"></span>
+        <br>
+        <button class="btn btn-primary" onclick="add()">add</button>
+        <button class="btn btn-primary" onclick="subtract()">subtract</button>
+        <button class="btn btn-primary" onclick="divide()">divide</button>
+        <button class="btn btn-primary" onclick="multiply()">multiply</button>
+        <br>
+        <span id="sum-el" class="btn btn-success p-4">Sum</span>
+
+    </header>
+    <header class="text-center d-none">
+        <div id="bj" class="btn btn-success m-1">hi</div>
+    </header>
+    <header>
+        <div id="letter" class="btn btn-success m-1">mo</div>
+    </header>
+    <script src="bootstrap.bundle.js" async defer></script>
+    <script src="main.js" async defer></script>
+</body>
+
+</html>
